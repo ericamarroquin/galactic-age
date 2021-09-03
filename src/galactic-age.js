@@ -8,7 +8,7 @@ export class Age {
   }
 
   toVenus() {
-    
+    this.venusAge = this.earthAge * 0.62;
   }
 
 }
