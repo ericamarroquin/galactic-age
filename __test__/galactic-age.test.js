@@ -32,6 +32,6 @@ describe('Age', () => {
   })
 
   test('should return lifetime remaining on mercury', () => {
-    expect(age.galacticYearsLeft("mercury")).toEqual(12.72);
+    expect(age.toMercury()).toEqual(13);
   })
 })
