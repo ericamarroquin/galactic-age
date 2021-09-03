@@ -24,6 +24,8 @@ export class Age {
 
   toJupiter() {
     this.jupiterAge = this.earthAge * 11.86;
+    let jupiterLifeExpect = this.avgLifeExpectancy * 11.86;
+    return Math.ceil(jupiterLifeExpect - this.jupiterAge);
   }
 
   // galacticYearsLeft() {
