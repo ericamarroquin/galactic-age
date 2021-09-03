@@ -16,7 +16,7 @@ export class Age {
   }
 
   toJupiter() {
-    
+    this.jupiterAge = this.earthAge * 11.86;
   }
 
 }
