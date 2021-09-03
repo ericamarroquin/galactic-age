@@ -60,4 +60,8 @@ describe('Age', () => {
     expect(oldAge.venusYearsLeft()).toEqual(4);
   })
 
+  test('should return number of years left on Venus', () => {
+    expect(age.venusYearsLeft()).toEqual(33);
+  })
+
 })
