@@ -56,7 +56,7 @@ export class Age {
     if (this.toJupiter() < 0) {
       return Math.abs(this.toJupiter());
     } else {
-      
+      return this.toJupiter();
     }
   }
 
