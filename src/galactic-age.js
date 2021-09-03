@@ -37,7 +37,11 @@ export class Age {
   }
 
   venusYearsLeft() {
-
+    if(this.toVenus() < 0) {
+      return Math.abs(this.toVenus());
+    } else {
+      return this.toVenus();
+    }
   }
 
 }
