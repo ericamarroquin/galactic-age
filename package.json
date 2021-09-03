@@ -1,7 +1,7 @@
 {
-  "name": "shape-tracker",
+  "name": "galactic-age",
   "version": "1.0.0",
-  "description": "",
+  "description": "calculates age in galactic years",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode=development",

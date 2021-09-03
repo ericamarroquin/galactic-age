@@ -1,31 +1,38 @@
-# (Application Name)
+# Galactic Age Calculator
 
-#### (Brief Description of Application)
+#### _Calculates given Earth age into a Galactic age_
 
-#### By (Your Name Here)
+### By Erica Marroquin
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* HTML
+* CSS
+* Markdown
+* JavaScript
+* npm
+* webpack
+* Jest
 
 ## Description
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* Clone repository to desired location using `git clone` command
+* Navigate to the directory via the command prompt
+* Run the command `npm install` to install all package dependencies
+* To open the live server, run the `npm run start` command
+
+To run tests using Jest, run the command `npm test`.
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* No known issues
 
 ## License
 
+[MIT License](https://opensource.org/licenses/MIT)
+
 ## Contact Information
+
+Erica Marroquin | [Email](mailto:ericamarroquin03@gmail.com) | [LinkedIn](https://www.linkedin.com/in/erica-marroquin/)
