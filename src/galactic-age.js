@@ -53,7 +53,9 @@ export class Age {
   }
 
   jupiterYearsLeft() {
-    
+    if (this.toJupiter() < 0) {
+      return Math.abs(this.toJupiter());
+    }
   }
 
 }
