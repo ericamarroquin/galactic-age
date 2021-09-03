@@ -11,4 +11,8 @@ export class Age {
     this.venusAge = this.earthAge * 0.62;
   }
 
+  toMars() {
+    
+  }
+
 }
