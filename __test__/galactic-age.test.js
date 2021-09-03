@@ -76,4 +76,8 @@ describe('Age', () => {
     expect(oldAge.jupiterYearsLeft()).toEqual(83);
   })
 
+  test('should return number of years left on Jupiter', () => {
+    expect(age.jupiterYearsLeft()).toEqual(629);
+  })
+
 })
