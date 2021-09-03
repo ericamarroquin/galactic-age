@@ -52,4 +52,8 @@ describe('Age', () => {
     expect(oldAge.mercuryYearsLeft()).toEqual(1);
   });
 
+  test('should return number of years left on Mercury', () => {
+    expect(age.mercuryYearsLeft()).toEqual(13);
+  } )
+
 })

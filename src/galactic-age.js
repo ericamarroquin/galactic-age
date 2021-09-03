@@ -31,6 +31,8 @@ export class Age {
   mercuryYearsLeft() {
     if (this.toMercury() < 0) {
       return Math.abs(this.toMercury());
+    } else {
+      return this.toMercury();
     }
   }
 
