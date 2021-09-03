@@ -64,4 +64,8 @@ describe('Age', () => {
     expect(age.venusYearsLeft()).toEqual(33);
   })
 
+  test('should return number of years past life expectancy on Mars', () => {
+    expect(oldAge.marsYearsLeft()).toEqual(13);
+  })
+
 })

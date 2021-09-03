@@ -44,4 +44,8 @@ export class Age {
     }
   }
 
+  marsYearsLeft() {
+
+  }
+
 }
