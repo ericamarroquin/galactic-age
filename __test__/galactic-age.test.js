@@ -6,4 +6,8 @@ describe('Age', () => {
   test('should create an Age object with an Earth age property', () => {
     expect(age.earthAge).toEqual(25);
   });
+
+  test('should return a users age in Mercury years', () => {
+    expect(age.toMercury()).toEqual(6);
+  })
 })

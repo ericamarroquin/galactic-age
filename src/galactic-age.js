@@ -3,4 +3,8 @@ export class Age {
     this.earthAge = age;
   }
 
+  toMercury() {
+    
+  }
+
 }
