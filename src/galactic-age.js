@@ -18,6 +18,8 @@ export class Age {
 
   toMars() {
     this.marsAge = this.earthAge * 1.88;
+    let marsLifeExpect = this.avgLifeExpectancy * 1.88;
+    return Math.ceil(marsLifeExpect - this.marsAge);
   }
 
   toJupiter() {
