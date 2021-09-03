@@ -60,4 +60,9 @@ export class Age {
     }
   }
 
+  yearsLeft() {
+    let planetArray = ["mercury", "venus", "mars", "jupiter"];
+    let planetAgeArray = []
+  }
+
 }
