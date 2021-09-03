@@ -31,7 +31,11 @@ describe('Age', () => {
     expect(age.avgLifeExpectancy).toEqual(78);
   })
 
-  test('should return lifetime remaining on mercury', () => {
+  test('should return lifetime remaining on Mercury', () => {
     expect(age.toMercury()).toEqual(13);
+  });
+
+  test('should return lifetime remaining on Venus', () => {
+    expect(age.toVenus()).toEqual(33);
   })
 })
