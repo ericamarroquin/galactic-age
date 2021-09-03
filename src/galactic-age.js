@@ -4,7 +4,7 @@ export class Age {
   }
 
   toMercury() {
-    
+    this.mercuryAge = this.earthAge * 0.24;
   }
 
 }
