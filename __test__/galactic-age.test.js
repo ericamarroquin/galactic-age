@@ -41,5 +41,9 @@ describe('Age', () => {
 
   test('should return lifetime remaining on Mars', () => {
     expect(age.toMars()).toEqual(100);
+  });
+
+  test('should return lifetime remaining on Jupiter', () => {
+    expect(age.toJupiter()).toEqual(629);
   })
 })
