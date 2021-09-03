@@ -26,4 +26,8 @@ describe('Age', () => {
     age.toJupiter();
     expect(age.jupiterAge).toEqual(296.5);
   })
+
+  test('should return average life expectancy property', () => {
+    expect(age.avgLifeExpectancy).toEqual(78);
+  })
 })
