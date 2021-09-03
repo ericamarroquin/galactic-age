@@ -12,7 +12,7 @@ export class Age {
   }
 
   toMars() {
-    
+    this.marsAge = this.earthAge * 1.88;
   }
 
 }
