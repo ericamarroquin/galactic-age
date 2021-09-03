@@ -20,8 +20,11 @@ export class Age {
     this.jupiterAge = this.earthAge * 11.86;
   }
 
-  galacticYearsLeft() {
-    
+  galacticYearsLeft(planet) {
+    // if (planet === "mercury") {
+    //   let mercuryLifeExpect = this.avgLifeExpectancy * 0.24;
+    //   return mercuryLifeExpect - this.mercuryAge;
+    // }
   }
 
 }
