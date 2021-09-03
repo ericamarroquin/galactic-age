@@ -11,9 +11,9 @@ export class Age {
   }
 
   toVenus() {
-    // this.venusAge = this.earthAge * 0.62;
-    // let venusLifeExpect = this.avgLifeExpectancy * 0.62;
-    // return Math.ceil(venusLifeExpect - this.venusAge);
+    this.venusAge = this.earthAge * 0.62;
+    let venusLifeExpect = this.avgLifeExpectancy * 0.62;
+    return Math.ceil(venusLifeExpect - this.venusAge);
   }
 
   toMars() {
