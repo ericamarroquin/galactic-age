@@ -47,8 +47,8 @@ export class Age {
   marsYearsLeft() {
     if (this.toMars() < 0) {
       return Math.abs(this.toMars());
-    // } else {
-    //   return this.toMars();
+    } else {
+      return this.toMars();
     }
   }
 
