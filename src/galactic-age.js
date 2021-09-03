@@ -6,7 +6,7 @@ export class Age {
 
   toMercury() {
     this.mercuryAge = this.earthAge * 0.24;
-    let mercuryLifeExpect = this.avgLifeExpectancy * 0.24
+    let mercuryLifeExpect = this.avgLifeExpectancy * 0.24;
     return Math.ceil(mercuryLifeExpect - this.mercuryAge);
   }
 
@@ -28,8 +28,10 @@ export class Age {
     return Math.ceil(jupiterLifeExpect - this.jupiterAge);
   }
 
-  galacticYearsCheck() {
-
+  mercuryYearsLeft() {
+    if (this.toMercury() < 0) {
+      return Math.abs(this.toMercury());
+    }
   }
 
 }

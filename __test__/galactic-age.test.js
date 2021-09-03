@@ -2,6 +2,7 @@ import { Age } from './../src/galactic-age.js';
 
 describe('Age', () => {
   const age = new Age(25);
+  const oldAge = new Age(85);
 
   test('should create an Age object with an Earth age property', () => {
     expect(age.earthAge).toEqual(25);
@@ -47,7 +48,8 @@ describe('Age', () => {
     expect(age.toJupiter()).toEqual(629);
   });
 
-  test('should return number of years past life expectancy in an array', () => {
-    expect(age.galacticYearsCheck()).toEqual([0,0,0,0]);
-  })
+  test('should return number of years past life expectancy on Mercury', () => {
+    expect(oldAge.mercuryYearsLeft()).toEqual(1);
+  });
+
 })
