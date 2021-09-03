@@ -68,4 +68,8 @@ describe('Age', () => {
     expect(oldAge.marsYearsLeft()).toEqual(13);
   })
 
+  test('should return number of years left on Mars', () => {
+    expect(age.marsYearsLeft()).toEqual(100);
+  })
+
 })
