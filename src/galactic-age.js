@@ -1,6 +1,7 @@
 export class Age {
   constructor(age) {
     this.earthAge = age;
+    this.avgLifeExpectancy = 78;
   }
 
   toMercury() {
