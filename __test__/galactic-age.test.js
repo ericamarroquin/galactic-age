@@ -26,11 +26,11 @@ describe('Age', () => {
   test('should return a users age in Jupiter years', () => {
     age.toJupiter();
     expect(age.jupiterAge).toEqual(296.5);
-  })
+  });
 
   test('should return average life expectancy property', () => {
     expect(age.avgLifeExpectancy).toEqual(78);
-  })
+  });
 
   test('should return lifetime remaining on Mercury', () => {
     expect(age.toMercury()).toEqual(13);
@@ -58,18 +58,22 @@ describe('Age', () => {
 
   test('should return number of years past life expectancy on Venus', () => {
     expect(oldAge.venusYearsLeft()).toEqual(4);
-  })
+  });
 
   test('should return number of years left on Venus', () => {
     expect(age.venusYearsLeft()).toEqual(33);
-  })
+  });
 
   test('should return number of years past life expectancy on Mars', () => {
     expect(oldAge.marsYearsLeft()).toEqual(13);
-  })
+  });
 
   test('should return number of years left on Mars', () => {
     expect(age.marsYearsLeft()).toEqual(100);
+  });
+
+  test('should return number of years past life expectancy on Jupiter', () => {
+    expect(oldAge.jupiterYearsLeft()).toEqual(83);
   })
 
 })
