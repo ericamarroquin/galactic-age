@@ -30,4 +30,8 @@ describe('Age', () => {
   test('should return average life expectancy property', () => {
     expect(age.avgLifeExpectancy).toEqual(78);
   })
+
+  test('should return lifetime remaining on mercury', () => {
+    expect(age.galacticYearsLeft()).toEqual(12.72);
+  })
 })
