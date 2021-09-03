@@ -28,8 +28,8 @@ export class Age {
     return Math.ceil(jupiterLifeExpect - this.jupiterAge);
   }
 
-  // galacticYearsLeft() {
+  galacticYearsCheck() {
 
-  // }
+  }
 
 }
